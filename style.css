@@ -1,0 +1,12 @@
+#weather{
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#weather div{
+  background-color: orange;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+}

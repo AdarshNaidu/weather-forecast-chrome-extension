@@ -7,7 +7,7 @@ The website version of the task is hosted [here](https://weather-forecast-chrome
 * Give some time to load if connection is slow  
 
 ## Instructions  
-Download the **weather-forecast-chrome-popup-extension** folder and run it in browser  
+Download this repository and load **weather-forecast-chrome-popup-extension** folder as unpacked extension  
 
 ## Improvements
 * Icons depending on the weather type can be showed  

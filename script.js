@@ -91,3 +91,42 @@ function setPosition(position){
 if("geolocation" in navigator){
   navigator.geolocation.getCurrentPosition(setPosition);
 }
+
+
+
+
+
+
+
+
+//background effect
+function clipBackground(){
+    document.getElementById("background").style.clipPath = "polygon(" + generatePath(8) +")";
+}
+
+function generateRandomNumbers(n){
+    let randomNumbers = [];
+    for(let i = 0; i < n; i++){
+        randomNumbers.push(Math.floor(Math.random() * 101));
+    }
+    return randomNumbers;
+}
+
+
+function generatePath(n){
+    let randomNumbers = generateRandomNumbers(2*n);
+    let path = "";
+    for(let i = 0; i < 2*n; i++){
+        if(i % 2 === 0){
+            path += randomNumbers[i] + "% ";
+        }else if(i== 2*n - 1){
+            path+= randomNumbers[i] + "%";
+        }else{
+            path += randomNumbers[i] + "%,";
+        }
+    }
+    return path;
+}
+
+
+setInterval( clipBackground , 1000);

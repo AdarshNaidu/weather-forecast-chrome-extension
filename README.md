@@ -1,6 +1,15 @@
 Task Id :-  Chrome extension for weather forecast
 =================================================
-Mentor :- @harshnitk17
+Collaborator :- @harshnitk17
 ----------------------------
 The website version of the task is hosted [here](https://weather-forecast-chrome-extension.glitch.me)  
-Download the **weather-forecast-chrome-popup-extension** folder and run it in browser to access the extension
+* Make sure the GPS is turned on if opened in mobile  
+* Give some time to load if connection is slow  
+
+## Instructions  
+Download the **weather-forecast-chrome-popup-extension** folder and run it in browser  
+
+## Improvements
+* Icons depending on the weather type can be showed  
+* Design can be improved  
+* It can be made interactive (*The option to choose the day which they want the forecast of can be added*)
